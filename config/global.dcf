@@ -1,0 +1,18 @@
+version: 0.8
+data_loading: TRUE
+cache_loading: TRUE
+recursive_loading: TRUE
+munging: FALSE
+logging: FALSE
+load_libraries: TRUE
+libraries: plyr, reshape2, ggplot2, stringr, lubridate, markstats, R.matlab,
+         truncnorm, testthat, rstan, tidyr, knitr, dygraphs, ggvis, scales, bamr,
+         batchtools, swotData, purrr, dplyr
+as_factors: TRUE
+data_tables: FALSE
+attach_internal_libraries: FALSE
+data_loading_header: TRUE
+data_ignore:
+logging_level: INFO
+cache_loaded_data: FALSE
+sticky_variables: NONE
